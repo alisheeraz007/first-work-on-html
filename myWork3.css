@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-image: url(backgroundimg.jpg);
+    height: 100vh;
+}
+.navBar{
+    background-color: #fff
+}
+.listDiv{
+    float: right;
+    margin-right: 50px;
+    padding: 20px;
+}
+.listDiv li{
+    display: inline-block;
+    padding-right: 20px; 
+}
+.listDiv li a{
+    text-decoration: none;
+    color: gray;
+    padding: 5px;
+    transition: 0.3s ease;
+}
+.listDiv li a:hover{
+    background-color: black;
+    color: white;
+    /* padding: 7px; */
+}
+.textDiv{
+    margin-left: 150px;
+    display: inline-block;
+    padding: 20px;
+    font-weight: bolder;
+    color: rgba(100, 100, 100, 1)
+}
+.secdiv1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    word-spacing: 15px;
+    letter-spacing: 2px;
+    color: white;
+}
+.secdiv2{
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    word-spacing: 25px;
+    color: white;
+}
+.secdiv3{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    word-spacing: 40px;
+    margin-left: 4px;
+    color: white;
+}
+.secdiv4{
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    word-spacing: 19px;
+    padding-left: 22px;
+    color: white;
+}
+.secdiv5{
+    width: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: justify;
+    margin-left: 10px;
+    color: white;
+}
+.secdiv6{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.form input{
+    border: none;
+    padding: 8px;
+    border-radius: 20px;
+}
+.form button{
+    float: right;
+    /* margin-bottom: 7px; */
+    /* margin-right: 0px; */
+    border-radius: 20px;
+    padding: 8px;
+    width: 115px;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: rgb(5, 39, 61);
+    color: white;
+}
+.form{
+    background-color: white;
+    border-radius: 20px;
+    /* width: 120%; */
+    padding: 4px;
+}
